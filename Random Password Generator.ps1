@@ -6,4 +6,4 @@
 # As soon as you use “y”, you’ll get anywhere from y to x number of non-alphanumeric characters.
 
 
-$Password = [system.web.security.membership]::GeneratePassword(x,y)
+$Password = [system.web.security.membership]::GeneratePassword(12)
