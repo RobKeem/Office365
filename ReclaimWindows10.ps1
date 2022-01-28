@@ -449,16 +449,16 @@ Get-AppxPackage "Microsoft.BingNews" | Remove-AppxPackage
 Get-AppxPackage "Microsoft.BingSports" | Remove-AppxPackage
 Get-AppxPackage "Microsoft.BingWeather" | Remove-AppxPackage
 Get-AppxPackage "Microsoft.Getstarted" | Remove-AppxPackage
-Get-AppxPackage "Microsoft.MicrosoftOfficeHub" | Remove-AppxPackage
+# Get-AppxPackage "Microsoft.MicrosoftOfficeHub" | Remove-AppxPackage
 # Get-AppxPackage "Microsoft.MicrosoftSolitaireCollection" | Remove-AppxPackage
 # Get-AppxPackage "Microsoft.Office.OneNote" | Remove-AppxPackage
 # Get-AppxPackage "Microsoft.People" | Remove-AppxPackage
-# Get-AppxPackage "Microsoft.SkypeApp" | Remove-AppxPackage
+Get-AppxPackage "Microsoft.SkypeApp" | Remove-AppxPackage
 # Get-AppxPackage "Microsoft.Windows.Photos" | Remove-AppxPackage
 # Get-AppxPackage "Microsoft.WindowsAlarms" | Remove-AppxPackage
 # Get-AppxPackage "Microsoft.WindowsCamera" | Remove-AppxPackage
 # Get-AppxPackage "microsoft.windowscommunicationsapps" | Remove-AppxPackage
-# Get-AppxPackage "Microsoft.WindowsMaps" | Remove-AppxPackage
+Get-AppxPackage "Microsoft.WindowsMaps" | Remove-AppxPackage
 Get-AppxPackage "Microsoft.WindowsPhone" | Remove-AppxPackage
 # Get-AppxPackage "Microsoft.WindowsSoundRecorder" | Remove-AppxPackage
 Get-AppxPackage "Microsoft.XboxApp" | Remove-AppxPackage
